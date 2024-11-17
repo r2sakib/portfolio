@@ -38,6 +38,10 @@ button {
   font-style: normal;
 }
 
+svg {
+  color : "red";
+}
+
 /*--------------------------------------------------------------
   # Selection Style.
   --------------------------------------------------------------*/
@@ -82,6 +86,7 @@ header {
 header nav {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 header nav ul {
   list-style-type: none;
@@ -114,6 +119,7 @@ main #hero-section {
   min-height: 80svh;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: -100px;
   /* Extra small devices (phones, <576px) */
 }
 main #hero-section #hero-left {
@@ -226,6 +232,7 @@ main #about-section h2 {
 main #about-section p {
   font-size: var(--subheading-size);
   line-height: 1.9;
+  font-size: 18pt;
 }
 main #about-section p span {
   color: var(--color-primary);
@@ -242,6 +249,7 @@ main #about-section li {
 main #expertise-section {
   max-width: 80%;
   margin: auto;
+  margin-top: 50px;
 }
 main #expertise-section #expertise-card-container {
   display: grid;
@@ -272,7 +280,7 @@ main #expertise-section #expertise-card-container .expertise-card span {
 main #projects-section {
   max-width: 80%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 main #projects-section h2 {
   margin-bottom: 20px;
@@ -326,6 +334,7 @@ main #projects-section #projects-card-container .projects-card a:hover {
 footer #contact-section {
   max-width: 80%;
   margin: auto;
+  margin-top: 50px;
 }
 footer #contact-section h2 {
   margin: 12px 0px;
@@ -376,7 +385,6 @@ footer #contact-section #contact-container #contact-form form #message-response 
 }
 footer #contact-section #social-links {
   display: flex;
-  justify-content: center;
   align-items: flex-start;
 }
 footer #contact-section #social-links ul {
@@ -384,6 +392,7 @@ footer #contact-section #social-links ul {
   flex-wrap: wrap;
   list-style-type: none;
   margin-bottom: 20px;
+
 }
 footer #contact-section #social-links ul li {
   border-radius: 50%;
