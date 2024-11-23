@@ -328,6 +328,12 @@ main #projects-section #projects-card-container .projects-card a:hover {
   cursor: pointer;
 }
 
+iframe {
+  width: 100%;
+  /* height: 80%; */
+  /* display: block; */
+}
+
 /*--------------------------------------------------------------
   # Footer -> Contact section
   --------------------------------------------------------------*/
